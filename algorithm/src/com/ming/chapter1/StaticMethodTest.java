@@ -3,7 +3,7 @@ package com.ming.chapter1;
 public class StaticMethodTest {
 
     /**
-     * 判断一个数是否是素数
+     * 鍒ゆ柇涓�釜鏁版槸鍚︽槸绱犳暟
      * @param n
      * @return
      */
@@ -22,7 +22,7 @@ public class StaticMethodTest {
 
     public static void main(String[] args)
     {
-         a = isPrime(5);
+         boolean a = isPrime(5);
     }
 
 }
