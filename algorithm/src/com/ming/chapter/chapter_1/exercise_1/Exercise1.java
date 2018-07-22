@@ -1,4 +1,4 @@
-package com.ming.chapter.chapter_1.section_1;
+package com.ming.chapter.chapter_1.exercise_1;
 
 
 /**

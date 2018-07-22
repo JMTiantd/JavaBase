@@ -1,9 +1,9 @@
-package com.ming.chapter1;
+package com.ming.chapter.chapter_1.section_1;
 
 public class StaticMethodTest {
 
     /**
-     * 鍒ゆ柇涓�釜鏁版槸鍚︽槸绱犳暟
+     * 鍒ゆ柇涓�釜鏁版槸鍚︽槸绱犳�?
      * @param n
      * @return
      */

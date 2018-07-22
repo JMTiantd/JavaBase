@@ -1,4 +1,4 @@
-package com.ming.chapter1;
+package com.ming.chapter.chapter_1.section_1;
 import java.util.Arrays;
 
 import edu.princeton.cs.algs4.In;
