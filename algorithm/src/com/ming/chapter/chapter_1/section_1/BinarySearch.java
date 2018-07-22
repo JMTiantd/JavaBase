@@ -7,7 +7,7 @@ import edu.princeton.cs.algs4.StdIn;
 
 
 /**
- * ¶þ·Ö·¨
+ * äºŒåˆ†æ³•
  * @author lenovo-pc
  *
  */
