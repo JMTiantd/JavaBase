@@ -295,5 +295,10 @@ public class Exercise1_10
         
     }
     
+    public static void ex_1_10()
+    {
+        
+    }
+    
 }
 
