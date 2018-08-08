@@ -264,10 +264,13 @@ public class Exercise1_10
     public static void ex_1_8()
     {
         System.out.println("-----------------------");
+        char m = 197;//Å
+        System.out.println(m);//b
         System.out.println('b');//b
         System.out.println('b' + 'c'); //197
         System.out.println('a' + 4); //101
         System.out.println((char)('a' + 4)); //e
+        System.out.println('a' + "4"); //a4
     }
     
     /**
@@ -290,14 +293,24 @@ public class Exercise1_10
             string = (n % 2) + string;
         }
         System.out.println(string);
-        
-        //方法三
-        
     }
     
+    /**
+     * 下面这段代码有什么问题？
+     * @author 王武明
+     * @date 2018年7月25日 上午10:01:10 
+     * @return void    返回类型
+     */
     public static void ex_1_10()
     {
         
+        int[] a;
+        for(int i = 0; i < 10; i++)
+        {
+//            a[i] = i*i;
+        }
+        
+        //答：它没有用new为a[]分配内存。
     }
     
 }
