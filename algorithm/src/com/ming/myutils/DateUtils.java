@@ -1,21 +1,11 @@
-package com.ming.jbase.datebase;
+package com.ming.myutils;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
-/**
- * 这个程序用来
- * 进行日期的相关测�?
- * @Title: DateTest.java 
- * @Package com.jbase.datetest 
- * @author 王武�?
- * @date 2018�?�?0�?下午1:33:30 
- * @version V1.0
- */
-public class DateTest
+public class DateUtils
 {
-
     /**
      * 设置格式化后的日期格式
      */
@@ -169,14 +159,4 @@ public class DateTest
         long dateToMilliStamp3 = dateToMilliStamp("2018-09-07 23:59:59",PATTERN);
         System.out.println(dateToMilliStamp3);
     }
-    
 }
-
-
-
-
-
-
-
-
-
