@@ -109,7 +109,9 @@ public class StringUtils
         for (int i = 1; i < a.length; i++)
         {
             if (a[i - 1].compareTo(a[i]) > 0)
-                return false;
+            {
+            	return false;
+            }
         }
         return true;
     }

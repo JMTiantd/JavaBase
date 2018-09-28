@@ -13,7 +13,7 @@ public class Gcd
     public static int gcd(int p, int q)
     {
         if (q == 0)
-            return p;
+            {return p;}
         int r = p % q;
         System.out.println(r);
         return gcd(q, r);

@@ -3,13 +3,16 @@ package com.ming.chapter.chapter_1.section_1;
 public class StaticMethodTest {
 
     /**
-     * 鍒ゆ柇涓�釜鏁版槸鍚︽槸绱犳�?
+     * 鍒ゆ柇涓�釜鏁版槸鍚︽槸绱犳�?
      * @param n
      * @return
      */
     public static boolean isPrime(int n)
     {
-        if (n < 2) return false;
+        if (n < 2)
+        {
+        	return false;
+        }
         for (int i = 2; i*i < n; i++)
         {
             if (n % i == 0)
