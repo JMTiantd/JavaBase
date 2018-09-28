@@ -33,6 +33,8 @@ public class BinarySearch
                 StdOut.println(key);
             }
         }
+
+        System.out.println("ssss");
     }
 
     public static int indexOf(int[] a, int key)
