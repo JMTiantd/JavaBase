@@ -58,7 +58,7 @@ public class StringUtils
         {
             result = true;
         }
-        
+
         return result;
     }
 
@@ -98,11 +98,10 @@ public class StringUtils
     }
 
     /**
-     * 检查一个字符串数组中的元素
-     * 是否已按照字母表顺序排列
+     * 检查一个字符串数组中的元素 是否已按照字母表顺序排列
      * @param a
      * @return
-     * @return boolean    返回类型
+     * @return boolean 返回类型
      */
     public boolean isSorted(String[] a)
     {
@@ -110,13 +109,12 @@ public class StringUtils
         {
             if (a[i - 1].compareTo(a[i]) > 0)
             {
-            	return false;
+                return false;
             }
         }
         return true;
     }
 
-    
     public static void main(String[] args)
     {
         String ip = " 192.168.33.252 , 49.7.3.88";

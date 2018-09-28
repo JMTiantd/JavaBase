@@ -1,6 +1,7 @@
 package com.ming.chapter.chapter_1.section_1;
 
-public class StaticMethodTest {
+public class StaticMethodTest
+{
 
     /**
      * 鍒ゆ柇涓�釜鏁版槸鍚︽槸绱犳�?
@@ -11,9 +12,9 @@ public class StaticMethodTest {
     {
         if (n < 2)
         {
-        	return false;
+            return false;
         }
-        for (int i = 2; i*i < n; i++)
+        for (int i = 2; i * i < n; i++)
         {
             if (n % i == 0)
             {
@@ -25,7 +26,7 @@ public class StaticMethodTest {
 
     public static void main(String[] args)
     {
-         boolean a = isPrime(5);
+        boolean a = isPrime(5);
     }
 
 }

@@ -11,7 +11,7 @@ public class MyTree
     }
 
     /**
-     * 构�?方法
+     * 构�?方法
      * @param node
      */
     public MyTree(Node node)
@@ -21,8 +21,8 @@ public class MyTree
 
     /**
      * 插入结点
-     * @author 王武�?
-     * @date 2018�?�?1�?上午9:33:19
+     * @author 王武�?
+     * @date 2018�?�?1�?上午9:33:19
      * @param key
      * @param value
      * @return void 返回类型
@@ -66,14 +66,14 @@ public class MyTree
             }
         }
     }
-    
+
     /**
      * 查找结点
-     * @author 王武�?
-     * @date 2018�?�?1�?上午11:22:12 
+     * @author 王武�?
+     * @date 2018�?�?1�?上午11:22:12
      * @param key
      * @return
-     * @return Node    返回类型
+     * @return Node 返回类型
      */
     public Node find(int key)
     {
@@ -86,10 +86,12 @@ public class MyTree
                 if (key > currentNode.key)
                 {
                     currentNode = currentNode.rightChildNode;
-                }else {
+                }
+                else
+                {
                     currentNode = currentNode.leftChildNode;
                 }
-                
+
                 if (currentNode == null)
                 {
                     return null;
@@ -98,24 +100,24 @@ public class MyTree
         }
         return currentNode;
     }
-    
+
     /**
      * 展示
-     * @author 王武�?
-     * @date 2018�?�?1�?下午1:27:01 
-     * @return void    返回类型
+     * @author 王武�?
+     * @date 2018�?�?1�?下午1:27:01
+     * @return void 返回类型
      */
     public void show()
     {
         this.show(root);
     }
-    
+
     /**
      * 中序遍历
-     * @author 王武�?
-     * @date 2018�?�?1�?下午1:27:53 
+     * @author 王武�?
+     * @date 2018�?�?1�?下午1:27:53
      * @param node
-     * @return void    返回类型
+     * @return void 返回类型
      */
     private void show(Node node)
     {
@@ -126,5 +128,5 @@ public class MyTree
             this.show(node.rightChildNode);
         }
     }
-    
+
 }

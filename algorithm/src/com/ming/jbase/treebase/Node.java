@@ -6,24 +6,24 @@ public class Node
      * key
      */
     int key;
-    
+
     /**
-     * �?
+     * �?
      */
     Object value;
-    
+
     /**
-     * 左节�?
+     * 左节�?
      */
     Node leftChildNode;
-    
+
     /**
-     * 右节�?
+     * 右节�?
      */
     Node rightChildNode;
-    
+
     /**
-     * 构�?方法
+     * 构�?方法
      * @param key
      * @param value
      */
@@ -33,5 +33,5 @@ public class Node
         this.key = key;
         this.value = value;
     }
-    
+
 }

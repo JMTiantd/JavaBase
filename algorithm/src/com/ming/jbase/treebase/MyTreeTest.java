@@ -6,7 +6,7 @@ public class MyTreeTest
     public static void main(String[] args)
     {
         Node root = new Node(50, 25);
-        
+
         MyTree myTree = new MyTree(root);
         myTree.insert(20, 530);
         myTree.insert(23, 30);
