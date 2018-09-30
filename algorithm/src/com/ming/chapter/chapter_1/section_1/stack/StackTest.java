@@ -1,5 +1,6 @@
 package com.ming.chapter.chapter_1.section_1.stack;
 
+import edu.princeton.cs.algs4.Stack;
 import org.junit.Test;
 
 import com.ming.myutils.MyStdIn;
@@ -73,10 +74,6 @@ public class StackTest
             }
             else if (!s.isEmpty())
             {
-
-                /**
-                 * 有问题：这个弹出并不是真的弹出。。。 不过是栈的长度减一了
-                 */
                 StdOut.print(s.pop() + "");
             }
         }
@@ -92,6 +89,8 @@ public class StackTest
 
         // 泛型定容栈
         fixedCapacityStackTest(5);
+
+        Stack<String> a = new Stack<String>();
     }
 
 }
