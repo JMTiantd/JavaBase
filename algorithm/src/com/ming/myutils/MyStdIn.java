@@ -32,7 +32,7 @@ public final class MyStdIn {
 
     public static boolean isNotStop()
     {
-        return scanner.hasNext("stop");
+        return !scanner.hasNext("stop");
     }
 
     public static boolean hasNextLine() {
