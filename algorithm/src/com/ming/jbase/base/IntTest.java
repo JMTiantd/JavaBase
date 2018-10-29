@@ -7,8 +7,10 @@ public class IntTest
     {
         Integer f1 = 100, f2 = 100, f3 = 150, f4 = 150;
 
-        System.out.println(f1 == f2); // true
-        System.out.println(f3 == f4); // false
+        // true
+        System.out.println(f1 == f2);
+        // false
+        System.out.println(f3 == f4);
 
         /**
          * IntegerCache �?���?如果字面量的值在-128~127之间，那么不会new新的Integer对象
@@ -28,7 +30,8 @@ public class IntTest
 
         // b = a + b; error （因�?a+b 操作会将 a、b 提升�?int 类型，所以将 int 类型赋�?�?byte
         // 就会编译出错�?
-        b += a; // ok -2
+        // ok -2
+        b += a;
         System.out.println(b);
 
     }

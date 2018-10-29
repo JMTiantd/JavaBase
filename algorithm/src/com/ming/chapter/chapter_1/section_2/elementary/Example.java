@@ -2,13 +2,10 @@ package com.ming.chapter.chapter_1.section_2.elementary;
 
 import edu.princeton.cs.algs4.In;
 import edu.princeton.cs.algs4.StdOut;
+import org.junit.Test;
 
 /**
- * 排序方法模板
- *
- * 这个类展示的是数组排序实现的框架。
- * 适用于任意实现了Comparable接口的数据类型
- *
+ * 排序方法模板 这个类展示的是数组排序实现的框架。 适用于任意实现了Comparable接口的数据类型
  * @Project: algorithm
  * @Package com.ming.chapter.chapter_1.section_2.elementary
  * @Author wuming.wang
@@ -69,6 +66,14 @@ public class Example
         sort(a);
         assert isSorted(a);
         show(a);
+    }
+
+    @Test
+    public void lessTest()
+    {
+        Integer[] a = new Integer[] { 3, 1, 5, 6, 7, 4, 2, 9, 8, 0 };
+        System.out.println(less(a[0], a[1]));
+        System.out.println(less(a[1], a[2]));
     }
 
 }
