@@ -1,12 +1,7 @@
 package com.ming.jbase.base;
 
 /**
- * 多�?测试
- * @Title: PolymorphicTest.java
- * @Package com.jbase.basetest
- * @author 王武�?
- * @date 2018�?�?5�?下午4:32:57
- * @version V1.0
+ * 多态测试
  */
 public class PolymorphicTest
 {
@@ -19,11 +14,15 @@ public class PolymorphicTest
 
         System.out.println("...............分割�?...............");
 
-        // 使用多�?
+        // 使用多态
         Food food1 = new Bread2();
         Food food2 = new Noodle2();
         polymorphicTest.eat(food1);
         polymorphicTest.eat(food2);
+
+        System.out.println("...............测试父类是否可以调用子类独有的方法--------------");
+        // food1.getPrice();//error 父类无法调用子类独有的方法
+
     }
 
     public void eat(Bread bread)
@@ -53,6 +52,11 @@ class Bread
     }
 
     public String getName()
+    {
+        return name;
+    }
+
+    public String getPrice()
     {
         return name;
     }

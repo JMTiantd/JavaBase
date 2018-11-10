@@ -23,7 +23,16 @@ public class IntTest
         System.out.println(a3 == a4);
 
         /**
-         * += 操作�?
+         * 一个char是两个字节 可以存下一个汉字 两个英文
+         */
+        Character ch= '我';
+        System.out.println(ch);
+
+        Float f = new Float(3.4);
+        float ff = 3.4f;
+
+        /**
+         * += 操作
          */
         byte a = 127;
         byte b = 127;
@@ -33,6 +42,42 @@ public class IntTest
         // ok -2
         b += a;
         System.out.println(b);
-
+        
+        //test getIntRandomArr
+        System.out.println("-------------getIntRandomArr---------------");
+        int[] intRandomArr = getIntRandomArr(30,360);
+        for (int i : intRandomArr)
+        {
+            System.out.println(i);
+        }
+        
     }
+    
+    /**
+     * 获取随机数组-等间隔获取随机数
+     * 随机数 (最小值+Math.random()*(最大值-最小值+1))
+     * @author 王武明
+     * @date 2018年11月2日 上午10:24:16 
+     * @param count
+     * @param max
+     * @return
+     * @return Integer[]    返回类型
+     */
+    private static int[] getIntRandomArr(int count,int max)
+    {
+        int interval = max / count;
+        int[] randomArr = new int[count];
+        
+        int thisMin = 0;
+        int thisMax = 0;
+        for (int i = 0; i<count;i++)
+        {
+            thisMin = i*interval+1;
+            thisMax = (i+1)*interval;
+            randomArr[i] = (int)(thisMin + Math.random()*(thisMax - thisMin + 1));
+        }
+        
+        return randomArr;
+    }
+    
 }

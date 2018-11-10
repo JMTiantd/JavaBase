@@ -29,6 +29,21 @@ public class StringTest
         System.out.println(s1 == s6);// false
         System.out.println(s1 == s6.intern());// true
         System.out.println(s2 == s2.intern());// false
+
+        String[] arr = new String[]{"aa","vv"};
+        System.out.println(arr.length);
+        System.out.println(s5.length());
+
     }
+
+    /**
+     * String和StringBuilder、StringBuffer的区别
+     */
+    public static void stringBuilderTest()
+    {
+
+    }
+
+
 
 }
