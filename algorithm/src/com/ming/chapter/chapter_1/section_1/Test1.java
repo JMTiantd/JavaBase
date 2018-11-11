@@ -1,8 +1,5 @@
 package com.ming.chapter.chapter_1.section_1;
 
-import com.ming.chapter.chapter_1.section_1.UF.UF;
-import com.ming.chapter.chapter_1.section_1.UF.UnionFindOne;
-
 public class Test1
 {
 
