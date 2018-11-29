@@ -11,6 +11,11 @@ public class IntTest
         System.out.println(f1 == f2);
         // false
         System.out.println(f3 == f4);
+        // true
+        System.out.println(f3.equals(f4));
+        // true
+        System.out.println(f3.intValue() == f4.intValue());
+        System.out.println("-------------------");
 
         /**
          * IntegerCache �?���?如果字面量的值在-128~127之间，那么不会new新的Integer对象

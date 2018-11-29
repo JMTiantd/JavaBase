@@ -1,7 +1,8 @@
 *.classpath
-
+*.gitignore
 *.project
 *.idea
+*.iml
 
 .settings/
 *.rebel*
